@@ -1,0 +1,20 @@
+{
+    "openvino": [
+        {
+            "name": "mobilestylegan_ffhq_snet.xml",
+            "url": "https://drive.google.com/uc?id=1t2tpDt4vEXFeyBo1A3tov9oKwdwTQkht"
+        },
+        {
+            "name": "mobilestylegan_ffhq_snet.bin",
+            "url": "https://drive.google.com/uc?id=11ZNRJV3c22jAVPHTNF-vBDr7ZfaHseO1"
+        },
+        {
+            "name": "mobilestylegan_ffhq_mnet.xml",
+            "url": "https://drive.google.com/uc?id=1kjctS2sv_ZpLVS9CSNptMWilOpvCzK8I"
+        },
+        {
+            "name": "mobilestylegan_ffhq_mnet.bin",
+            "url": "https://drive.google.com/uc?id=1WKBzGGQRPUxOqgNox0opzv6PZ4_tdfC4"
+        }
+    ]
+}

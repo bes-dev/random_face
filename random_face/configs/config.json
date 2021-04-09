@@ -1,0 +1,11 @@
+{
+    "mnet_xml": "data/mobilestylegan_ffhq_mnet.xml",
+    "mnet_bin": "data/mobilestylegan_ffhq_mnet.bin",
+    "snet_xml": "data/mobilestylegan_ffhq_snet.xml",
+    "snet_bin": "data/mobilestylegan_ffhq_snet.bin",
+    "style_dim": 512,
+    "n_samples": 4096,
+    "img_normalize": true,
+    "img_range": [-1.0, 1.0],
+    "img_rgb2bgr": true
+}

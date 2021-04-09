@@ -1,0 +1,4 @@
+gdown
+numpy
+opencv-python
+openvino

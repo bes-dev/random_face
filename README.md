@@ -7,6 +7,9 @@ A simple python library for fast image generation of people who do not exist.
 </p>
 For more details, please refer to the [paper](https://arxiv.org/abs/2104.04767).
 
+## Production-quality demos
+* Gradio web demo [Gradio](https://gradio.app/hub/AK391/MobileStyleGAN.pytorch)
+
 ## Requirements
 
 * Linux, Windows, MacOS

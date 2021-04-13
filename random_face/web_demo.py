@@ -8,7 +8,7 @@ def mobileface(truncate, alpha):
 
 inputs = [
           gr.inputs.Checkbox(label="Truncate"),
-          gr.inputs.Slider(minimum=0, maximum=5, step=None, default=0.5, label="Alpha")
+          gr.inputs.Slider(minimum=0, maximum=1, step=None, default=0.5, label="Alpha")
           
 ]
 

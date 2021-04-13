@@ -2,3 +2,4 @@ gdown==3.12.2
 numpy
 opencv-python
 openvino
+gradio

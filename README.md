@@ -5,6 +5,7 @@ A simple python library for fast image generation of people who do not exist.
 <p align="center">
   <img src="res/faces.jpeg"/>
 </p>
+For more details, please refer to the [paper](https://arxiv.org/abs/2104.04767).
 
 ## Requirements
 
@@ -44,4 +45,18 @@ engine = random_face.get_engine()
 face = engine.get_random_face()
 cv2.imshow("face", face)
 cv2.waitKey()
+```
+
+## Citation
+
+
+```
+@misc{belousov2021mobilestylegan,
+      title={MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis},
+      author={Sergei Belousov},
+      year={2021},
+      eprint={2104.04767},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```

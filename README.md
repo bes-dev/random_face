@@ -46,6 +46,9 @@ face = engine.get_random_face()
 cv2.imshow("face", face)
 cv2.waitKey()
 ```
+[Run in colab](https://colab.research.google.com/github/ZackPashkin/random_face/blob/master/Generate_faces.ipynb)
+
+
 
 ## Citation
 

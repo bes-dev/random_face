@@ -47,7 +47,7 @@ cv2.imshow("face", face)
 cv2.waitKey()
 ```
 
-[![Open In Colab](https://colab.research.google.com/github/ZackPashkin/random_face/blob/master/Generate_faces.ipynb)
+[![Open In Colab](https://colab.research.google.com/github/ZackPashkin/random_face/blob/master/Generate_faces.ipynb)]
 
 
 ## Citation

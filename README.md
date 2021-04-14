@@ -48,7 +48,7 @@ cv2.waitKey()
 ```
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZackPashkin/random_face/blob/master/Generate_faces.ipynb)
-[![Open In Gradio](https://raw.githubusercontent.com/gradio-app/gradio/master/gradio/static/img/logo.png)](https://gradio.app/hub/AK391/MobileStyleGAN.pytorch)
+[![Open In Gradio](https://raw.githubusercontent.com/gradio-app/gradio/master/gradio/static/img/logo_mini.png)](https://gradio.app/hub/AK391/MobileStyleGAN.pytorch)
 
 ## Citation
 

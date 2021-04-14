@@ -34,6 +34,8 @@ pip install .
 ```bash
 python -m random_face.demo
 ```
+## Web Demo
+* Gradio web demo [Gradio](https://gradio.app/hub/AK391/MobileStyleGAN.pytorch)
 
 ## Example
 

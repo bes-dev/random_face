@@ -23,7 +23,8 @@ requirements = [
     'gdown',
     'numpy',
     'opencv-python',
-    'openvino'
+    'openvino',
+    'jupyter'
 ]
 
 setup(

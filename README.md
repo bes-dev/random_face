@@ -10,7 +10,7 @@ For more details, please refer to the [paper](https://arxiv.org/abs/2104.04767).
 ## Requirements
 
 * Linux, Windows, MacOS
-* Python 3.8+
+* Python 3.8.+
 * CPU compatible with OpenVINO.
 
 ## Install package

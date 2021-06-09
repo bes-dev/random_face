@@ -25,7 +25,6 @@ def main(args):
     engine = get_engine()
     style_a = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
     style_b = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
-    screen = curses.initscr()
 
     if args.save_video is not None:
         img = engine.style_to_img(style_a)

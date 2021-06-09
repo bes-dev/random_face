@@ -17,7 +17,7 @@ from setuptools import setup, find_packages
 
 readme = open('README.md').read()
 
-VERSION = '2021.04.10.1'
+VERSION = '2021.06.09.0'
 
 requirements = [
     'gdown',

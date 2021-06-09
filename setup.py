@@ -24,7 +24,8 @@ requirements = [
     'numpy',
     'opencv-python',
     'openvino',
-    'jupyter'
+    'jupyter',
+    'blessed'
 ]
 
 setup(

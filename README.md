@@ -5,7 +5,7 @@ A simple python library for fast image generation of people who do not exist.
 <p align="center">
   <img src="res/faces.jpeg"/>
 </p>
-For more details, please refer to the [paper](https://arxiv.org/abs/2104.04767).
+For more details, please refer to the (paper)[https://arxiv.org/abs/2104.04767].
 
 ## Requirements
 

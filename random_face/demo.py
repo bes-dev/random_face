@@ -53,7 +53,6 @@ def main(args):
         style_a = style_b
         style_b = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
 
-    curses.endwin()
     if args.save_video is not None:
         video_writer.release()
 

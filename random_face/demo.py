@@ -14,25 +14,24 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 import argparse
-import curses
 import time
 import cv2
 import numpy as np
 from random_face import get_engine
 import random_face.functional as F
-
+from blessed import Terminal
 
 def main(args):
     engine = get_engine()
     style_a = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
     style_b = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
-    screen = curses.initscr()
 
     if args.save_video is not None:
         img = engine.style_to_img(style_a)
         fourcc = cv2.VideoWriter_fourcc(*'XVID')
         video_writer = cv2.VideoWriter(args.save_video, fourcc, 15.0, (img.shape[0], img.shape[0]))
 
+    term = Terminal()
     while True:
         for i in range(args.n_steps):
             weight = (1.0 / args.n_steps) * i
@@ -40,9 +39,8 @@ def main(args):
             start = time.time()
             img = engine.style_to_img(style)
             stop = time.time()
-            screen.addstr(0, 0, f"Processing time: {stop - start} s.")
-            screen.addstr(3, 0, "Press 'q' for quit")
-            screen.refresh()
+            print(term.clear() + term.move(0, 0) + f"Processing time: {stop - start} s.")
+            print(term.move(1, 0) + "Press 'q' for quit")
             img = F.tensor_to_img(img)
             if args.save_video is not None:
                 video_writer.write(img)
@@ -55,7 +53,6 @@ def main(args):
         style_a = style_b
         style_b = engine.truncate(engine.var_to_style(np.random.normal(size=(1, engine.style_dim))), alpha=args.alpha)
 
-    curses.endwin()
     if args.save_video is not None:
         video_writer.release()
 

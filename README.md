@@ -5,6 +5,12 @@ A simple python library for fast image generation of people who do not exist.
 <p align="center">
   <img src="res/faces.jpeg"/>
 </p>
+
+[![Downloads](https://pepy.tech/badge/random-face)](https://pepy.tech/project/random-face)
+[![Downloads](https://pepy.tech/badge/random-face/month)](https://pepy.tech/project/random-face)
+[![Downloads](https://pepy.tech/badge/random-face/week)](https://pepy.tech/project/random-face)
+
+
 For more details, please refer to the [paper](https://arxiv.org/abs/2104.04767).
 
 ## Requirements

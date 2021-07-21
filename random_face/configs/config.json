@@ -1,8 +1,8 @@
 {
-    "mnet_xml": "data/mobilestylegan_ffhq_mnet.xml",
-    "mnet_bin": "data/mobilestylegan_ffhq_mnet.bin",
-    "snet_xml": "data/mobilestylegan_ffhq_snet.xml",
-    "snet_bin": "data/mobilestylegan_ffhq_snet.bin",
+    "mnet_xml": "data/MappingNetwork.xml",
+    "mnet_bin": "data/MappingNetwork.bin",
+    "snet_xml": "data/SynthesisNetwork.xml",
+    "snet_bin": "data/SynthesisNetwork.bin",
     "style_dim": 512,
     "n_samples": 4096,
     "img_normalize": true,

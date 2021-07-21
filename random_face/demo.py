@@ -29,7 +29,7 @@ def main(args):
     if args.save_video is not None:
         img = engine.style_to_img(style_a)
         fourcc = cv2.VideoWriter_fourcc(*'XVID')
-        video_writer = cv2.VideoWriter(args.save_video, fourcc, 15.0, (img.shape[0], img.shape[0]))
+        video_writer = cv2.VideoWriter(args.save_video, fourcc, 15.0, (img.shape[1], img.shape[2]))
 
     term = Terminal()
     while True:

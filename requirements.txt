@@ -1,5 +1,5 @@
 gdown==3.12.2
 numpy
 opencv-python
-openvino
+openvino==2021.4.2
 blessed
